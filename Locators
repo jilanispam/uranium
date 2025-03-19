@@ -1,0 +1,25 @@
+Locator Types : 
+1. ID 
+2. Name 
+3. Class Name
+5. By Link Text 
+6. Tag Name
+
+
+XPath :  //TagName[@Attribute='value']
+//input[contains(@class,'submit')] --> any where 
+
+CSS :
+id  #
+class name .
+
+input[type='text']:nth-child(2)
+input[type*='pass'] --> anywhere 
+input[type^='pass'] --> anywhere 
+
+//*[text()='log out']
+
+//*[text()='log out']/following-sibling::button[1]
+
+
+//*[text()='log out']/parent::div
